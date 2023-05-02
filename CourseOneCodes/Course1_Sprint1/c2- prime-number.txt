@@ -1,0 +1,55 @@
+Algrotham :-
+
+step1: start
+step2: set the minimum range from the user 
+step3: set the maximum range from the user 
+step4: using loop in between min range and max range for finding the prime number
+step5: for finding the prime num another loop in the parent loop
+step6: using if condition to check number is prime or not inside the child loop
+step7: using the if condition for sum of all prime numbers then print
+step8: stop
+
+
+
+
+Pseudocode :-
+Begin 
+
+   print("enter the minimum number of range " )
+   Get n1
+
+   print("enter the maximum number of range " )
+   Get n2
+
+   sum=0;
+
+ 
+for(int i=n1; i=n2; i++)
+
+begin
+
+               temp=0;
+              for(int j=2; j<=i-1; j++)
+              begin
+                 if(i%j==0)
+                 begin
+                    temp = temp + 1
+                 end 
+              end 
+
+      if(temp == 0)
+      begin
+          print( i + " ")
+      end
+
+     if(temp == 0)
+     begin
+       sum= sum + i;
+     end
+
+
+end
+
+  println("These are the prime number in given range and sum is " + sum )
+
+End

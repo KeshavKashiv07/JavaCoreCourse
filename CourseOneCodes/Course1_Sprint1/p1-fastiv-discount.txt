@@ -1,0 +1,100 @@
+Algrotham :-
+
+step1: start
+step2: accept the bill amt from the user
+step3: calculate the 5% of intrest using (5/100)*totalbill this formula
+step4: put if-else condition for check total bill is grater then equals to 500 
+step5: total bill is lass then 500 then else condition is print
+step6: stop
+
+
+Pseudocode :-
+Begin 
+
+Get totalbill
+discount = (5/100)*totalbill
+
+        if(TotalBill >= 500)
+        begin
+             discountedBill = totalBill - dsicount
+             print(discountedBill)
+         end
+
+        else
+        begin
+            print(totalBill + "your bill is lass then 500rs for discount")
+        end
+
+
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Algrotham :-
+
+step1: start
+step2: accept the withdraw balance from the user
+step3: subtract from the main balance 
+step4: if amt is not lass the 100 print current balance
+step5: if amt is lass the 100 print account frozen 
+step6: stop
+
+
+Pseudocode :-
+Begin 
+
+balance=5500
+Get withdrawBalance
+CurrentBalance = balance - withdrawBalance
+
+        if(CurrentBalance >= 100)
+        begin
+            print("your current balance is : " + CurrentBalance)
+        end
+
+       else
+       begin
+            print("Your account is frozen because of current balance is less then 100 : " + CurrentBalance)
+       end
+
+
+End
+
+
+
+

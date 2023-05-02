@@ -1,0 +1,31 @@
+Algrotham :-
+
+step1: start
+step2: set the withdraw balance from the user
+step3: withdraw amt is subtract from the main balance for geting current balance 
+step4: using if-else condition, amt is more the 100 print current balance
+step5: if amt is lass the 100 print "account frozen" 
+step6: stop
+
+
+Pseudocode :-
+Begin 
+
+balance=5500
+Get withdrawBalance
+CurrentBalance = balance - withdrawBalance
+
+        if(CurrentBalance >= 100)
+        begin
+            print("your current balance is : " + CurrentBalance)
+        end
+
+       else
+       begin
+            print("Your account is frozen because of current balance is less then 100 : " + CurrentBalance)
+       end
+
+
+End
+
+

@@ -1,0 +1,70 @@
+Algrotham :-
+
+step1: start
+
+step2: set the name , department , salary of the employees
+
+step3: set the variabls, which we want to calculate
+
+step4: put If condition to choses department is sale 
+
+step5: for calculate the bonous putng that particular (2%/100)*annualsalary formula to get bonous
+
+step6: taking another if condition for comparing the bonous to max bonous for geting higest bonous
+
+step7: taking loop for geting the total bonous amount of employess
+
+step8: for calculate the average bonous, puting formula to get average bonous
+
+step9: stop
+
+
+
+
+
+Pseudocode :-
+
+Begin
+
+print("Enter employee name")
+Get emp_name
+
+print("Enter employee department")
+Get emp_dept
+
+print("Enter employee salary")
+Get salary
+anualsalary = 12*salary
+
+bonous
+higest_bonous = 0 
+total_bonous_amt = 0 
+bonous_avg
+
+for(i=1; i<=7; i++)
+begin
+if(emp_dept == "sale")
+begin
+
+   bonous = (2/100)*anualsalary
+   
+    if(bonous > higest_bonous)
+     begin
+       higest_bonous = bonous
+     end
+         
+     total_bonous_amt = total_bonous_amt + bonous
+       
+ 
+   bonous_avg = total_bonous_amt/3
+   
+end
+end
+
+print(bonous)
+print(higest_bonous)
+print(emp_name)
+print(total_bonous_amt)
+print(bonous_avg)
+
+End

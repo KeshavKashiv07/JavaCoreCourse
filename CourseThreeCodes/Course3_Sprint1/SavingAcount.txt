@@ -1,0 +1,14 @@
+Attributes :-
+
+Age
+Name
+Amount
+Account number
+
+Behaviors :-
+
+withdraw amount from account
+deposit amount from account
+check balance
+
+

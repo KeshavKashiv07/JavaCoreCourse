@@ -1,0 +1,25 @@
+Attributes :-
+
+Outdoor
+Indoor
+
+grade1
+grade2
+grade3
+
+BlueFurniture
+GreenFurniture
+RadFurniture
+
+Tables
+Chairs
+stools
+Cupboards
+
+
+
+Behaviors :-
+
+DiscountToCustomers 
+
+
